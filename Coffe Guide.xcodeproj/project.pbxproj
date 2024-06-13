@@ -11,6 +11,8 @@
 		EB9CC4D02C189C1800242E9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9CC4CF2C189C1800242E9C /* ContentView.swift */; };
 		EB9CC4D22C189C1900242E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9CC4D12C189C1900242E9C /* Assets.xcassets */; };
 		EB9CC4D52C189C1900242E9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9CC4D42C189C1900242E9C /* Preview Assets.xcassets */; };
+		EB9CC4ED2C1B7E0100242E9C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9CC4EC2C1B7E0100242E9C /* ProfileView.swift */; };
+		EB9CC4EF2C1B7E2D00242E9C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9CC4EE2C1B7E2D00242E9C /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EB9CC4CF2C189C1800242E9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB9CC4D12C189C1900242E9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB9CC4D42C189C1900242E9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB9CC4EC2C1B7E0100242E9C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EB9CC4EE2C1B7E2D00242E9C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				EB9CC4CD2C189C1800242E9C /* Coffe_GuideApp.swift */,
 				EB9CC4CF2C189C1800242E9C /* ContentView.swift */,
+				EB9CC4EC2C1B7E0100242E9C /* ProfileView.swift */,
+				EB9CC4EE2C1B7E2D00242E9C /* SettingsView.swift */,
 				EB9CC4D12C189C1900242E9C /* Assets.xcassets */,
 				EB9CC4D32C189C1900242E9C /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9CC4EF2C1B7E2D00242E9C /* SettingsView.swift in Sources */,
+				EB9CC4ED2C1B7E0100242E9C /* ProfileView.swift in Sources */,
 				EB9CC4D02C189C1800242E9C /* ContentView.swift in Sources */,
 				EB9CC4CE2C189C1800242E9C /* Coffe_GuideApp.swift in Sources */,
 			);
