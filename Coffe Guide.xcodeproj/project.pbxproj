@@ -8,21 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		EB9CC4CE2C189C1800242E9C /* Coffe_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9CC4CD2C189C1800242E9C /* Coffe_GuideApp.swift */; };
-		EB9CC4D02C189C1800242E9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9CC4CF2C189C1800242E9C /* ContentView.swift */; };
+		EB9CC4D02C189C1800242E9C /* CoffeeTypesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9CC4CF2C189C1800242E9C /* CoffeeTypesListView.swift */; };
 		EB9CC4D22C189C1900242E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9CC4D12C189C1900242E9C /* Assets.xcassets */; };
 		EB9CC4D52C189C1900242E9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9CC4D42C189C1900242E9C /* Preview Assets.xcassets */; };
-		EB9CC4ED2C1B7E0100242E9C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9CC4EC2C1B7E0100242E9C /* ProfileView.swift */; };
-		EB9CC4EF2C1B7E2D00242E9C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9CC4EE2C1B7E2D00242E9C /* SettingsView.swift */; };
+		EBA116132C29BA1B006ACA66 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA116122C29BA1B006ACA66 /* Recipe.swift */; };
+		EBA116152C29BA35006ACA66 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA116142C29BA35006ACA66 /* Coffee.swift */; };
+		EBA116172C29BA42006ACA66 /* CoffeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA116162C29BA42006ACA66 /* CoffeType.swift */; };
+		EBA116192C29BAB3006ACA66 /* CoffeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA116182C29BAB3006ACA66 /* CoffeViewModel.swift */; };
+		EBA1161B2C29BC3D006ACA66 /* CoffeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA1161A2C29BC3D006ACA66 /* CoffeListView.swift */; };
+		EBA1161D2C29BCC1006ACA66 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA1161C2C29BCC1006ACA66 /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB9CC4CA2C189C1800242E9C /* Coffe Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffe Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9CC4CD2C189C1800242E9C /* Coffe_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffe_GuideApp.swift; sourceTree = "<group>"; };
-		EB9CC4CF2C189C1800242E9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB9CC4CF2C189C1800242E9C /* CoffeeTypesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTypesListView.swift; sourceTree = "<group>"; };
 		EB9CC4D12C189C1900242E9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB9CC4D42C189C1900242E9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EB9CC4EC2C1B7E0100242E9C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		EB9CC4EE2C1B7E2D00242E9C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EBA116122C29BA1B006ACA66 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		EBA116142C29BA35006ACA66 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		EBA116162C29BA42006ACA66 /* CoffeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeType.swift; sourceTree = "<group>"; };
+		EBA116182C29BAB3006ACA66 /* CoffeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeViewModel.swift; sourceTree = "<group>"; };
+		EBA1161A2C29BC3D006ACA66 /* CoffeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeListView.swift; sourceTree = "<group>"; };
+		EBA1161C2C29BCC1006ACA66 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +63,12 @@
 		EB9CC4CC2C189C1800242E9C /* Coffe Guide */ = {
 			isa = PBXGroup;
 			children = (
+				EBA116112C29BA01006ACA66 /* Model */,
 				EB9CC4CD2C189C1800242E9C /* Coffe_GuideApp.swift */,
-				EB9CC4CF2C189C1800242E9C /* ContentView.swift */,
-				EB9CC4EC2C1B7E0100242E9C /* ProfileView.swift */,
-				EB9CC4EE2C1B7E2D00242E9C /* SettingsView.swift */,
+				EBA116182C29BAB3006ACA66 /* CoffeViewModel.swift */,
+				EB9CC4CF2C189C1800242E9C /* CoffeeTypesListView.swift */,
+				EBA1161A2C29BC3D006ACA66 /* CoffeListView.swift */,
+				EBA1161C2C29BCC1006ACA66 /* RecipeDetailView.swift */,
 				EB9CC4D12C189C1900242E9C /* Assets.xcassets */,
 				EB9CC4D32C189C1900242E9C /* Preview Content */,
 			);
@@ -71,6 +81,16 @@
 				EB9CC4D42C189C1900242E9C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBA116112C29BA01006ACA66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBA116122C29BA1B006ACA66 /* Recipe.swift */,
+				EBA116142C29BA35006ACA66 /* Coffee.swift */,
+				EBA116162C29BA42006ACA66 /* CoffeType.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB9CC4EF2C1B7E2D00242E9C /* SettingsView.swift in Sources */,
-				EB9CC4ED2C1B7E0100242E9C /* ProfileView.swift in Sources */,
-				EB9CC4D02C189C1800242E9C /* ContentView.swift in Sources */,
+				EBA1161B2C29BC3D006ACA66 /* CoffeListView.swift in Sources */,
+				EB9CC4D02C189C1800242E9C /* CoffeeTypesListView.swift in Sources */,
 				EB9CC4CE2C189C1800242E9C /* Coffe_GuideApp.swift in Sources */,
+				EBA116132C29BA1B006ACA66 /* Recipe.swift in Sources */,
+				EBA116152C29BA35006ACA66 /* Coffee.swift in Sources */,
+				EBA116192C29BAB3006ACA66 /* CoffeViewModel.swift in Sources */,
+				EBA116172C29BA42006ACA66 /* CoffeType.swift in Sources */,
+				EBA1161D2C29BCC1006ACA66 /* RecipeDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
